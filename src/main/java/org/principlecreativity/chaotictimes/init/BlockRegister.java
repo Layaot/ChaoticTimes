@@ -5,14 +5,22 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.principlecreativity.chaotictimes.Main;
-import org.principlecreativity.chaotictimes.blocks.bulidings.SteelBlockUpperCorner;
+import org.principlecreativity.chaotictimes.blocks.bulidings.*;
 
 public class BlockRegister {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Main.MOD_ID);
 
     public static final RegistryObject<Block> STEEL_BLOCK_UPPER_CORNER;
+    public static final RegistryObject<Block> STEEL_BLOCK_UPPER;
+    public static final RegistryObject<Block> STEEL_BLOCK_LEFT;
+    public static final RegistryObject<Block> STEEL_BLOCK_SURFACE;
+    public static final RegistryObject<Block> STEEL_BLOCK_RIGHT;
 
     static {
-        STEEL_BLOCK_UPPER_CORNER = BLOCKS.register("steel_block_upper_corner", SteelBlockUpperCorner::new);
+        STEEL_BLOCK_UPPER_CORNER = BLOCKS.register("steel_block_upper_corner", () -> new FacingBlock("steel_block_upper_corner"));
+        STEEL_BLOCK_UPPER = BLOCKS.register("steel_block_upper", () -> new FacingBlock("steel_block_upper"));
+        STEEL_BLOCK_LEFT = BLOCKS.register("steel_block_left", () -> new FacingBlock("steel_block_left"));
+        STEEL_BLOCK_SURFACE = BLOCKS.register("steel_block_surface", () -> new FacingBlock("steel_block_surface"));
+        STEEL_BLOCK_RIGHT = BLOCKS.register("steel_block_right", () -> new FacingBlock("steel_block_right"));
     }
 }

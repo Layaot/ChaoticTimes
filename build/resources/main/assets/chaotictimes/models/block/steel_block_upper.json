@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaotictimes:blocks/steel_block_upper",
+    "up": "chaotictimes:blocks/steelblock",
+    "north": "chaotictimes:blocks/steel_block_upper",
+    "east": "chaotictimes:blocks/steel_block_upperleft",
+    "south": "chaotictimes:blocks/steelblock",
+    "west": "chaotictimes:blocks/steel_block_upperright",
+    "particle": "chaotictimes:blocks/steelblock"
+  }
+}

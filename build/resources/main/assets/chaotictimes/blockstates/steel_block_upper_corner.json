@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "chaotictimes:block/steel_block_upper_corner",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "chaotictimes:block/steel_block_upper_corner"
+    },
+    "facing=south": {
+      "model": "chaotictimes:block/steel_block_upper_corner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chaotictimes:block/steel_block_upper_corner",
+      "y": 270
+    }
+  }
+}
