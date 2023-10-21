@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "chaotictimes:block/steel_block_downer",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "chaotictimes:block/steel_block_downer"
+    },
+    "facing=south": {
+      "model": "chaotictimes:block/steel_block_downer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chaotictimes:block/steel_block_downer",
+      "y": 270
+    }
+  }
+}

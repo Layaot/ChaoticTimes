@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chaotictimes:blocks/cobalt_lantern"
+  }
+}
